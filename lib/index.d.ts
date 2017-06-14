@@ -42,4 +42,6 @@ declare class Maybe<T> {
     
 }
 
-export default Maybe
+declare module "data.maybe" {
+  export = Maybe
+}
